@@ -1,0 +1,89 @@
+/* PARALLAX */
+.body {
+  margin: -5px;
+
+}
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.keyart, .keyart_layer {
+  height: 1000px;
+}
+
+#parallax {
+  display: block;
+}
+
+.keyart {
+  position: relative;
+  z-index: 10;
+}
+
+.keyart_layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+
+.keyart_layer.parallax {
+  position: fixed;
+}
+
+#keyart-0 {
+  background-image: url(1.jpg);
+  /*background-color: #ffaf1b;*/
+}
+
+#keyart-1 {
+  background-image: url(2.jpg);
+}
+
+#keyart-2 {
+  background-image: url(3.jpg);
+
+
+}
+
+#keyart-3 {
+  background-image: url(4.jpg);
+}
+
+#keyart-4 {
+  background-image: url(stand\ png\ gif.gif);
+  /*z-index: 500;*/
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: top;
+
+}
+
+#keyart-5 {
+  background-image: url(6.png);
+}
+
+#keyart-6 {
+  background-image: url();
+
+}
+
+#keyart-7 {
+  /* background-image: url("https://pngimg.com/uploads/dragon/dragon_PNG84485.png");
+  background-size: 50%; */
+}
+
+#keyart-8 {
+  /* background-image: url("http://www.firewatchgame.com/images/parallax/parallax8.png"); */
+}
+
+#keyart-scrim {
+  background-color: #ffaf00;
+  opacity: 0;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  
+}
